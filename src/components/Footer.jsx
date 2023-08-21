@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { styles } from "../styles";
 // import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGitAlt, faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -54,6 +54,11 @@ const Footer = () => {
           <li className="inline  px-2">
               <a target="_blank" rel='noreferer' href="https://www.instagram.com/thunderking124/">
                   <FontAwesomeIcon className="w-auto h-8 py-3 flex-1" icon = {faInstagram} color ="#4d4d4e" />
+              </a>
+          </li>
+          <li className="inline ">
+              <a target="_blank" rel='noreferer' href="https://github.com/ThunderKing124">
+                  <FontAwesomeIcon className="w-auto h-8 py-3 flex-1" icon = {faGithub} color ="#4d4d4e" />
               </a>
           </li>
         </ul>
