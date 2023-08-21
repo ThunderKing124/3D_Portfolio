@@ -30,15 +30,37 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cloud from "./company/cloud.png";
+import codechef from "./company/codechef.png";
+import mdu from "./company/mdu.png";
+import snsps from "./company/snsps.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import chess from "./chess.png";
+import nfs from "./nfs.jpg";
+import destiny from "./destiny.jpg";
+import hitman from "./hitman.jpg";
+import dbz from "./dbz.webp";
+import naruto from "./naruto.jpg";
+import steinsgate from "./steinsgate.jpg";
+import onepiece from "./onepiece.jpg";
+import gita from "./gita.jpg";
+import meluha from "./meluha.jpg";
+import thinking from "./thinking.jpg";
+import tbate from "./tbate.jpg";
+import { Cloud } from "@react-three/drei";
 
 export {
+  snsps,
+  mdu,
   logo,
   backend,
   creator,
+  cloud,
+  codechef,
   mobile,
   web,
   github,
@@ -69,4 +91,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  chess,
+  nfs,
+  destiny,
+  hitman,
+  dbz,
+  naruto,
+  steinsgate,
+  onepiece,
+  gita,
+  meluha,
+  thinking,
+  tbate,
 };

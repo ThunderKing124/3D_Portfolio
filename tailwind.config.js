@@ -4,6 +4,17 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+
+      keyframes:{
+        rotate:{
+          '0%':{transform:'rotateY(0deg)'},
+          '100%':{transform:'rotateY(360deg)'},
+        }
+      },
+
+      animation: {
+              "rotate": "rotate 60s infinite",
+            },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",

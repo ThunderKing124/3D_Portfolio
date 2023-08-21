@@ -10,6 +10,10 @@ import {
     reactjs,
     python,
     tailwind,
+    cloud,
+    codechef,
+    snsps,
+    mdu,
     nodejs,
     mongodb,
     git,
@@ -32,18 +36,23 @@ import {
   
   export const navLinks = [
     {
+      id: "",
+      title: "Home",
+    },
+    {
       id: "about",
       title: "About",
     },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
+    // {
+    //   id: "work",
+    //   title: "Work",
+    // },
+    // {
+    //   id: "contact",
+    //   title: "Contact",
+    // },
   ];
+
   
   const services = [
     {
@@ -85,18 +94,18 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
     {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -105,6 +114,21 @@ import {
     //   name: "figma",
     //   icon: figma,
     // },
+    
+    // {
+    //   name: "sql",
+    //   icon: sql,
+    // },
+    // {
+    //   name: "mysql",
+    //   icon: mysql,
+    // },
+    
+    // {
+    //   name: "xml",
+    //   icon: xml,
+    // },
+    
     {
       name: "c++",
       icon: cpp,
@@ -121,78 +145,107 @@ import {
       name: "java",
       icon: java,
     },
-    // {
-    //   name: "sql",
-    //   icon: sql,
-    // },
-    // {
-    //   name: "mysql",
-    //   icon: mysql,
-    // },
+    
     // {
     //   name: "php",
     //   icon: php,
     // },
-    // {
-    //   name: "xml",
-    //   icon: xml,
-    // },
-    
-  ];
-  
+  ]
+
+  const educations = [
+    {
+      title: "Class 10 CBSE Board",
+      course: "",
+      school_name: "Sh. S.N. Sidheshwar Sr. Sec. Public School",
+      icon: snsps,
+      iconBg: "#FFF",
+      date: "2018 - 2019",
+      points: [
+        "I scored 94.6% in Class 10th CBSE board examinations.",
+        "In Class 10th, I had 5 Core subjects with Financial Manangement as my 6th Subject.",
+        "I represented my school in many Inter-School Events and won a great deal of competitions.",
+      ],
+    },
+    {
+      title: "Class 12 CBSE Board",
+      course: "(Non-Medical with Computer Science)",
+      school_name: "Sh. S.N. Sidheshwar Sr. Sec. Public School",
+      icon: snsps,
+      iconBg: "#FFF",
+      date: "2020 - 2021",
+      points: [
+        "I scored 95.6% in Class 12th Board examinations.",
+        "I opted for Non-Medical with Computer Science in class 11th with Physical Education being my 6th Subject.",
+        "I won many Science and Maths olympiads during this session.",
+      ],
+    },
+    {
+      title: "Bachelor of Technology",
+      course: "(Computer Science Engineering)",
+      school_name: "Maharshi Dayanand University",
+      icon: mdu,
+      iconBg: "#FFF",
+      date: "2021 - 2025",
+      points: [
+        "I am currently a third year student of B.Tech (C.S.E.).",
+        "I scored 9.13 SGPA in previous semester and total of 8.9 SGPA in all the semesters.",
+        "I won the first position in UIET coding hackathon.",
+      ],
+    },
+  ]
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Google Cloud Facilitator Program 2022",
+      company_name: "Google Cloud",
+      icon: cloud,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      // date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I participated in Google Cloud facilitator Program 2022",
+        "It was a great experience with a lot to learn about",
+        "In this I was given a virtual environment where we completed our Qwiklabs",
+        "Upon completion of the program, I was awarded with swags",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "3 Star Coder",
+      company_name: "CodeChef",
+      icon: codechef,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      // date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I am a 3 star Coder on CodeChef",
+        "I have solved more than 200 questions on CodeChef",
+        "I have participated in many contest and I had 107th global rank in the last contest out of 5000 participants in my division",
+        "I have a global rank of 19153 on CodeChef",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -288,4 +341,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, educations, technologies, experiences, testimonials, projects };
