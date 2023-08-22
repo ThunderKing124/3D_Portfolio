@@ -26,24 +26,24 @@ const Anime = () => {
         <h3 className='text-white text-[40px] font-bold'>Anime.</h3>
 
         <div className="mt-12 gap-8 ">
-            <div className="my-7">
-                <img src={dbz} alt = "dbz" className="float-left w-16 h-auto rounded mr-5"/>
-                <p className="text-white-100 text-[14px] pl-1 pt-2 tracking-wider">My Favourite Anime</p>
+            <div className="my-5 h-20">
+                <img src={dbz} alt = "dbz" className="float-left max-h-full w-16 rounded mr-5"/>
+                {/* <p className="text-white-100 text-[14px] pl-1 pt-2 tracking-wider">My Favourite Anime</p> */}
                 <h5 className='text-white text-[24px] font-bold'>Dragon Ball Z</h5>
             </div>
-            <div className="mb-10 " >               
-                <img src={steinsgate} alt = "steins;gate" className="float-left w-16 h-auto rounded mr-5" />
-                <p className="text-white-100 text-[14px] pl-1 pt-3 tracking-wider">It's the choice of Steins Gate.</p>
-                <h5 className='text-white text-[24px] font-bold'>Steins;Gate</h5>
+            <div className="my-5 h-20 " >               
+                <img src={steinsgate} alt = "steins;gate" className="float-left max-h-full w-16 rounded mr-5" />
+                {/* <p className="text-white-100 text-[14px] pl-1 pt-3 tracking-wider">It's the choice of Steins Gate.</p> */}
+                <h5 className='text-white text-[24px] font-bold'>Steins; Gate</h5>
             </div>
-            <div className="mt-10">
-                <img src={naruto} alt = "naruto" className="float-left w-16 h-auto rounded mr-5"/>
-                <p className="text-white-100 text-[14px] pl-1 pt-3 tracking-wider">Dattebayo</p>
+            <div className="my-5 h-20">
+                <img src={naruto} alt = "naruto" className="float-left max-h-full w-16 rounded mr-5"/>
+                {/* <p className="text-white-100 text-[14px] pl-1 pt-3 tracking-wider">Dattebayo</p> */}
                 <h5 className='text-white text-[24px] font-bold'>Naruto</h5>
             </div>
-            <div className="my-9">
-                <img src={onepiece} alt = "onepiece" className="float-left w-16 h-auto rounded mr-5"/>
-                <p className="text-white-100 text-[14px] pl-1 pt-3 tracking-wider">Nothing Happened</p>
+            <div className="my-5 h-20">
+                <img src={onepiece} alt = "onepiece" className="float-left max-h-full w-16 rounded mr-5"/>
+                {/* <p className="text-white-100 text-[14px] pl-1 pt-3 tracking-wider">Nothing Happened</p> */}
                 <h5 className='text-white text-[24px] font-bold'>One Piece</h5>
             </div>
         </div>

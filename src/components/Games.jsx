@@ -19,25 +19,25 @@ const Games = () => {
         {/* <p className={styles.sectionSubText}>Games</p> */}
         <h3 className='text-white text-[40px] font-bold'>Games.</h3>
 
-        <div className="mt-12 gap-8 z-1">
-            <div className="my-5">
-                <img src={chess} alt = "chess" className="float-left w-12 h-auto rounded mr-5"/>
-                <p className="text-white-100 text-[14px] pl-1 tracking-wider">Most hours spent</p>
+        <div className="mt-12 gap-8 z-1 h-auto">
+            <div className="my-5 h-20">
+                <img src={chess} alt = "chess" className="float-left max-h-full w-16  rounded mr-5"/>
+                {/* <p className="text-white-100 text-[14px] pl-1 tracking-wider">Most hours spent</p> */}
                 <h5 className='text-white text-[24px] font-bold'>Chess</h5>
             </div>
-            <div className="my-5" >               
-                <img src={destiny} alt = "destiny2" className="float-left w-12 h-auto rounded mr-5" />
-                <p className="text-white-100 text-[14px] pl-1 tracking-wider">Amazing Graphics and Storyline</p>
+            <div className="my-5 h-20" >               
+                <img src={destiny} alt = "destiny2" className="float-left  max-h-full w-16 rounded mr-5" />
+                {/* <p className="text-white-100 text-[14px] pl-1 tracking-wider">Amazing Graphics and Storyline</p> */}
                 <h5 className='text-white text-[24px] font-bold'>Destiny 2</h5>
             </div>
-            <div className="my-5">
-                <img src={nfs} alt = "nfs" className="float-left w-12 h-auto rounded mr-5"/>
-                <p className="text-white-100 text-[14px] pl-1 tracking-wider">Need For Speed</p>
+            <div className="my-5 h-20">
+                <img src={nfs} alt = "nfs" className="float-left max-h-full w-16  rounded mr-5"/>
+                {/* <p className="text-white-100 text-[14px] pl-1 tracking-wider">Need For Speed</p> */}
                 <h5 className='text-white text-[24px] font-bold'>Most Wanted</h5>
             </div>
-            <div className="my-5">
-                <img src={hitman} alt = "hitman" className="float-left w-12 h-auto rounded mr-5"/>
-                <p className="text-white-100 text-[14px] pl-1 tracking-wider">All Time Favourite</p>
+            <div className="my-5 h-20">
+                <img src={hitman} alt = "hitman" className="float-left max-h-full w-16  rounded mr-5"/>
+                {/* <p className="text-white-100 text-[14px] pl-1 tracking-wider">All Time Favourite</p> */}
                 <h5 className='text-white text-[24px] font-bold'>Freedom Fighters</h5>
             </div>
         </div>

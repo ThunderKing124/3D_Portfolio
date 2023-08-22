@@ -20,25 +20,25 @@ const Book = () => {
         <h3 className='text-white text-[40px] font-bold'>Books.</h3>
 
         <div className="mt-12 gap-8 z-1">
-            <div className="my-10">
-                <img src={gita} alt = "bhagwad gita" className="float-left w-12 h-auto rounded mr-5"/>
-                <p className="text-white-100 text-[14px] pl-1 tracking-wider">The Song of the God</p>
-                <h5 className='text-white text-[24px] font-bold'>Bhagwad Gita</h5>
+            <div className="my-10 h-20">
+                <img src={gita} alt = "bhagwad gita" className="float-left max-h-full w-16 rounded mr-5"/>
+                {/* <p className="text-white-100 text-[14px] pl-1 tracking-wider">The Song of the God</p> */}
+                <h5 className='text-white text-[20px] font-bold'>Bhagwad Gita</h5>
             </div>
-            <div className="my-10" >               
-                <img src={meluha} alt = "the immortals of meluha" className="float-left w-12 h-auto rounded mr-5" />
-                <p className="text-white-100 text-[14px] pl-1 tracking-wider">Shiva's Trilogy - 1</p>
-                <h5 className='text-white text-[24px] font-bold'>The Immortals of Meluha</h5>
+            <div className="my-10 h-20" >               
+                <img src={meluha} alt = "the immortals of meluha" className="float-left max-h-full w-16 rounded mr-5" />
+                <p className="text-white-100 text-[20px] pl-1 tracking-wider hidden">Shiva's Trilogy - 1</p>
+                <h5 className='text-white text-[20px] font-bold'>The Immortals of Meluha</h5>
             </div>
-            <div className="my-10">
-                <img src={tbate} alt = "tbate" className="float-left w-12 h-auto rounded pt-1 mr-5"/>
+            {/* <div className="my-5 h-20">
+                <img src={tbate} alt = "tbate" className="float-left max-h-full w-16 rounded pt-1 mr-5"/>
                 <p className="text-white-100 text-[14px] pl-1 tracking-wider">Peak Fiction</p>
                 <h5 className='text-white text-[24px] font-bold'>The Beginning After The End</h5>
-            </div>
-            <div className="-my-5">
-                <img src={thinking} alt = "thinking fast and slow" className="float-left w-12 h-auto rounded mr-5"/>
-                <p className="text-white-100 text-[14px] pl-1 tracking-wider">Fast vs Slow</p>
-                <h5 className='text-white text-[24px] font-bold'>Thinking Fast And Slow</h5>
+            </div> */}
+            <div className="my-10 h-20">
+                <img src={thinking} alt = "thinking fast and slow" className="float-left max-h-full w-16 rounded mr-5"/>
+                {/* <p className="text-white-100 text-[14px] pl-1 tracking-wider">Fast vs Slow</p> */}
+                <h5 className='text-white text-[20px] font-bold'>Thinking Fast And Slow</h5>
             </div>
         </div>
 

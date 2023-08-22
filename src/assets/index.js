@@ -51,11 +51,13 @@ import gita from "./gita.jpg";
 import meluha from "./meluha.jpg";
 import thinking from "./thinking.jpg";
 import tbate from "./tbate.jpg";
+import keshav from "./keshav.jpg";
 import { Cloud } from "@react-three/drei";
 
 export {
   snsps,
   mdu,
+  keshav,
   logo,
   backend,
   creator,

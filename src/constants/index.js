@@ -78,10 +78,10 @@ import {
       name: "HTML 5",
       icon: html,
     },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -106,10 +106,10 @@ import {
     //   name: "Three JS",
     //   icon: threejs,
     // },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
     // {
     //   name: "figma",
     //   icon: figma,
@@ -133,10 +133,10 @@ import {
       name: "c++",
       icon: cpp,
     },
-    {
-      name: "c",
-      icon: c,
-    },
+    // {
+    //   name: "c",
+    //   icon: c,
+    // },
     {
       name: "python",
       icon: python,
@@ -154,29 +154,29 @@ import {
 
   const educations = [
     {
-      title: "Class 10 CBSE Board",
+      title: "Class 10 ",
       course: "",
-      school_name: "Sh. S.N. Sidheshwar Sr. Sec. Public School",
+      school_name: "CBSE Board",
       icon: snsps,
       iconBg: "#FFF",
       date: "2018 - 2019",
       points: [
-        "I scored 94.6% in Class 10th CBSE board examinations.",
-        "In Class 10th, I had 5 Core subjects with Financial Manangement as my 6th Subject.",
-        "I represented my school in many Inter-School Events and won a great deal of competitions.",
+        "Scored 94.6% in Class 10th CBSE board examinations.",
+        "Had 5 Core subjects with Financial Manangement as my 6th Subject.",
+        "Represented my school in many Inter-School Events and won a great deal of competitions.",
       ],
     },
     {
-      title: "Class 12 CBSE Board",
+      title: "Class 12 ",
       course: "(Non-Medical with Computer Science)",
-      school_name: "Sh. S.N. Sidheshwar Sr. Sec. Public School",
+      school_name: "CBSE Board",
       icon: snsps,
       iconBg: "#FFF",
       date: "2020 - 2021",
       points: [
-        "I scored 95.6% in Class 12th Board examinations.",
-        "I opted for Non-Medical with Computer Science in class 11th with Physical Education being my 6th Subject.",
-        "I won many Science and Maths olympiads during this session.",
+        "Scored 95.6% in Class 12th Board examinations.",
+        "Opted for Non-Medical with Computer Science in class 11th with Physical Education being my 6th Subject.",
+        "Won many Science and Maths olympiads during this session.",
       ],
     },
     {
@@ -187,9 +187,9 @@ import {
       iconBg: "#FFF",
       date: "2021 - 2025",
       points: [
-        "I am currently a third year student of B.Tech (C.S.E.).",
-        "I scored 9.13 SGPA in previous semester and total of 8.9 SGPA in all the semesters.",
-        "I won the first position in UIET coding hackathon.",
+        "A third year student of B.Tech (C.S.E.).",
+        "Scored 9.13 SGPA in previous semester and total of 8.9 SGPA in all the semesters.",
+        "Won the first position in UIET coding hackathon.",
       ],
     },
   ]
