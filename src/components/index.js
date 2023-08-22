@@ -8,7 +8,7 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import About from './About';
-import Cube from './Cube';
+
 import Education from './Education';
 import Hobbies from './Hobbies';
 import Book from './Book';
@@ -24,7 +24,6 @@ export {
   Book,
   Games,
   Anime,
-  Cube,
   Overview,
   About,
   Footer,
