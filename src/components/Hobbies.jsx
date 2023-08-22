@@ -128,11 +128,11 @@ const Book = () => {
                 <p className="text-white-100 text-[20px] pl-1 tracking-wider ">Shiva's Trilogy - 1</p>
                 <h5 className='text-white text-[20px] font-bold'>The Immortals of Meluha</h5>
             </div>
-            <div className="my-5 h-20">
+            {/* <div className="my-5 h-20">
                 <img src={tbate} alt = "tbate" className="float-left max-h-full w-16 rounded pt-1 mr-5"/>
                 <p className="text-white-100 text-[14px] pl-1 tracking-wider">Peak Fiction</p>
                 <h5 className='text-white text-[24px] font-bold'>The Beginning After The End</h5>
-            </div>
+            </div> */}
             <div className="my-10 h-20">
                 <img src={thinking} alt = "thinking fast and slow" className="float-left max-h-full w-16 rounded mr-5"/>
                 <p className="text-white-100 text-[14px] pl-1 tracking-wider ">Fast vs Slow</p>
