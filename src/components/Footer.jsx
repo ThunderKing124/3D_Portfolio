@@ -43,24 +43,26 @@ const Footer = () => {
           Developed by Keshav Goel
         </p>
         </div>
-        <div className="inline text-right">
+        <div className="inline text-right -mt-10">
 
         <ul >
+        
           <li className="inline ">
               <a target="_blank" rel='noreferer' href="https://www.linkedin.com/in/keshav-goel-8a2b25133/">
                   <FontAwesomeIcon className="w-auto h-8 py-3 flex-1" icon = {faLinkedin} color ="#4d4d4e" />
               </a>
           </li>
-          <li className="inline  px-2">
+          <li className="inline  px-4">
               <a target="_blank" rel='noreferer' href="https://www.instagram.com/thunderking124/">
                   <FontAwesomeIcon className="w-auto h-8 py-3 flex-1" icon = {faInstagram} color ="#4d4d4e" />
               </a>
           </li>
-          <li className="inline ">
+          <li className="inline pr-4">
               <a target="_blank" rel='noreferer' href="https://github.com/ThunderKing124">
                   <FontAwesomeIcon className="w-auto h-8 py-3 flex-1" icon = {faGithub} color ="#4d4d4e" />
               </a>
           </li>
+          
         </ul>
         </div>
       </div>

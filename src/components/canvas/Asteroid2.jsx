@@ -5,11 +5,11 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Asteroid = ({ isMobile }) => {
-  const asteroid = useGLTF("./asteroid2/scene.gltf");
+  const asteroid = useGLTF("./keshav.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={2} groundColor='black' />
+      <hemisphereLight intensity={4} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -18,12 +18,13 @@ const Asteroid = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={1} />
+      {/* <ambientLight intensity={0.5} /> */}
+      {/* <pointLight intensity={10} /> */}
       <primitive 
         object={asteroid.scene}
-        scale={isMobile ? 0.4 : 0.45}
-        position={isMobile ? [0, -2.35, -0] : [0, -2.25, 0]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 1.5 : 2}
+        position={isMobile ? [0, -1.8, -0] : [0, -1.5, 0]}
+        rotation={[1.57,0, 5.04]}
         
       />
     </mesh>
@@ -64,10 +65,13 @@ const Asteroid2Canvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          autoRotate
+          // autoRotate
           enableZoom={false}
-          maxPolarAngle={Math.PI / 1.8}
-          minPolarAngle={Math.PI / 4}
+          maxPolarAngle={Math.PI / 2}
+          minPolarAngle={Math.PI / 2}
+          // minAzimuthAngle={0 }
+          // maxAzimuthAngle={0}
+
         />
         <Asteroid isMobile={isMobile} />
       </Suspense>

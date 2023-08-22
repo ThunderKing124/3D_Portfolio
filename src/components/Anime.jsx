@@ -21,7 +21,7 @@ const Anime = () => {
       
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl z-1'
+        className='flex-[0.75] bg-black-100 p-7 rounded-2xl '
       >
         <h3 className='text-white text-[40px] font-bold'>Anime.</h3>
 

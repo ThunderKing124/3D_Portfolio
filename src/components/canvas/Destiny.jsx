@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Destiny2 = ({ isMobile }) => {
-  const destiny = useGLTF("./destiny/scene.gltf");
+  const destiny = useGLTF("./chess/scene.gltf");
 
   return (
     <mesh>
@@ -21,8 +21,8 @@ const Destiny2 = ({ isMobile }) => {
       <pointLight intensity={1}/>
       <primitive 
         object={destiny.scene}
-        scale={isMobile ? 0.2 : 0.25}
-        position={isMobile ? [0, -0.5, 0.5] : [0, 0.5, 0]}
+        scale={isMobile ? 2 : 2}
+        position={isMobile ? [0, -2, 0.5] : [0, -2, 0]}
         rotation={[-0.01, 3.14, 0]}
         
       />

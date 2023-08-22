@@ -90,18 +90,18 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     // {
     //   name: "Node JS",
     //   icon: nodejs,
     // },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     // {
     //   name: "Three JS",
     //   icon: threejs,

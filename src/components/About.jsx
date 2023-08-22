@@ -19,7 +19,6 @@ const About = () => {
         </div>
 
         <div>
-          <br/>
         <p className={`${styles.sectionSubText} mt-2 text-white-100`}>
             Introduction
           </p>
@@ -36,6 +35,8 @@ const About = () => {
 
       
       <Asteroid2Canvas />
+
+      
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#education'>

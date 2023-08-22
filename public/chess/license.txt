@@ -1,11 +1,11 @@
 Model Information:
-* title:	Chess
-* source:	https://sketchfab.com/3d-models/chess-6471ad3881ad45dba7634f1442ed3efe
-* author:	xnicrox (https://sketchfab.com/xnicrox)
+* title:	Knight chess piece from Poly by Google
+* source:	https://sketchfab.com/3d-models/knight-chess-piece-from-poly-by-google-683e1a8b980f480ca8c11e3d93be7926
+* author:	IronEqual (https://sketchfab.com/ie-niels)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Chess" (https://sketchfab.com/3d-models/chess-6471ad3881ad45dba7634f1442ed3efe) by xnicrox (https://sketchfab.com/xnicrox) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Knight chess piece from Poly by Google" (https://sketchfab.com/3d-models/knight-chess-piece-from-poly-by-google-683e1a8b980f480ca8c11e3d93be7926) by IronEqual (https://sketchfab.com/ie-niels) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
