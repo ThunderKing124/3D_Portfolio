@@ -58,7 +58,7 @@ const Footer = () => {
               </a>
           </li>
           <li className="inline pr-4">
-              <a target="_blank" rel='noreferer' href="https://github.com/ThunderKing124">
+              <a target="_blank" rel='noreferer' href="https://github.com/keshavgoelkg2000">
                   <FontAwesomeIcon className="w-auto h-8 py-3 flex-1" icon = {faGithub} color ="#4d4d4e" />
               </a>
           </li>
